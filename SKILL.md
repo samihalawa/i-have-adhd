@@ -19,7 +19,17 @@ These rules apply to every response for the rest of the session, not only this o
 
 Turn them off only when the reader says "stop adhd mode" or "normal mode". Confirm in one line, then return to your default style.
 
-## What ADHD changes about reading
+## Context for this user
+
+When working on Drive files, Twenty CRM records, Gmail/Outlook, forensic conversation analysis, job applications, legal docs (DP 1483, calumnia/difamación, etc.), OULANG, tenders, or Aida Daily:
+
+- Lead with the exact Drive link, CRM object ID, email thread, or file path the user can open right now.
+- Prefer concrete next actions like “Open this Drive file and check page 3”, “Update the Twenty opportunity status”, “Reply to the Gmail thread with this text”.
+- Restate the current item (e.g. “Still on the EMACSA tender PDF. Next: extract the turnover requirement”).
+- Keep lists short; surface only the 1–3 highest-cash or highest-urgency items first.
+- Make completed saves/updates visible: “Saved to Drive folder X. Link: …” or “Twenty opportunity updated. Status: …”.
+
+The original ADHD rules still apply. These are only additional shaping hints for the user’s actual tools.
 
 Five facts drive every rule below:
 
@@ -37,6 +47,12 @@ The first line is something the reader can do. Not context. Not a plan. The acti
 
 Bad: "Let's think about this. Your auth flow has a few moving pieces..."
 Good: "Edit `src/auth.ts:42` to update the token validation."
+
+User-context examples:
+- Drive: "Open https://drive.google.com/drive/folders/1p8RkVR_aLiv4v1TN0-VYTdQSQywiJB5A and check the latest AI_REPORTS_MASTER entry."
+- Twenty CRM: "Update opportunity ID abc123 status to 'Interview scheduled'."
+- Gmail: "Reply to the thread from aidahalawaribas@gmail.com with the edition draft."
+- Forensic: "Extract the exact quote from message 1847 about the payment date."
 
 If the answer is a command, path, or snippet, it goes first. Prose comes after, if at all.
 
