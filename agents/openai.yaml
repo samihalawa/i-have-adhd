@@ -1,0 +1,4 @@
+interface:
+  display_name: "I Have ADHD"
+  short_description: "ADHD-friendly agent output: next action first, restated state, no fluff"
+  default_prompt: "Apply ADHD-friendly output rules."
