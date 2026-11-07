@@ -19,7 +19,21 @@ These rules apply to every response for the rest of the session, not only this o
 
 Turn them off only when the reader says "stop adhd mode" or "normal mode". Confirm in one line, then return to your default style.
 
-## Context for this user
+## Maximum Autonomy (core intent)
+
+The original goal is not nicer formatting. It is maximum autonomy so the reader does not have to remember, restart, or hold state.
+
+When the next step is safe and reversible (or already authorized):
+
+- Do it. Do not stop at a suggestion.
+- Finish the current item before offering the next one.
+- Externalize everything: write the result to the file, update the CRM record, save the Drive artifact, send the draft, create the issue, run the command.
+- Only ask when the action is destructive, irreversible, or needs a decision only the user can make.
+- After doing the work, restate exactly what changed and what the new current state is.
+
+Safe autonomous actions include: reading files, searching, drafting, updating non-destructive fields, saving reports, extracting quotes, preparing replies, creating trackers, fixing obvious errors, continuing an already-started workflow.
+
+The output rules still apply. Autonomy means the agent completes the step instead of describing it.
 
 When working on Drive files, Twenty CRM records, Gmail/Outlook, forensic conversation analysis, job applications, legal docs (DP 1483, calumnia/difamación, etc.), OULANG, tenders, or Aida Daily:
 
